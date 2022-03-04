@@ -1,0 +1,52 @@
+.nav{
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+    border: 2px solid;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 40px;
+    padding: 30px;
+    
+}
+
+.purple{
+    background-color: purple;
+    border: 2px solid;
+    width: 95%;
+    height: 60px;
+}
+
+.red{
+    background-color: red;
+    border: 2px solid;
+    width: 30%;
+    height: 700px;
+}
+
+.green{
+    background-color: green;
+    border: 2px solid;
+    width: 30%;
+    height: 700px;
+}
+
+.orange{
+    background-color: orange;
+    border: 2px solid;
+    width: 30%;
+    height: 700px;
+}
